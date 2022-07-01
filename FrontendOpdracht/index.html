@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FrontendOpdracht</title>
+</head>
+
+<body>
+    <div class="nav-container">
+        <div class="logo">
+            <img src="https://img.freepik.com/free-vector/volt-coding-logo-design_636821-174.jpg?w=740" alt="logo">
+            <span class="logo-title">
+                JavaFrontEnd</span>
+        </div>
+
+        <header>
+            <div class="navbar">
+                <ul id="nav">
+                    <li><a href="index.html"> Home</li></a>
+                    <li class="project-item"> 
+                        <div  class="project-content" id="project-content">
+                        <a href="file:///Users/macbook/frontend/Tutorial10/index.html">project1</a>
+                        <a href="file:///Users/macbook/frontend/Tutorial8/index.html">project2</a>
+                        <a href="file:///Users/macbook/frontend/Tutorial9/index.html">project3</a>
+                        </div>
+                        
+                        <a id="projects-button" onclick="showProjects()" href="#"> Projects</li></a>
+
+                    <li><a href="contact.html"> Contact</li></a>
+                </ul>
+            </div>
+        </header>
+    </div>
+
+    <div class="page">
+
+        <div class="input" id="input-container">
+            <input id = "name-input" placeholder="Name" type="text">
+            <button id="submit-button">submit</button>
+        </div>
+
+        <div class="left-nav">
+
+            <ul id="itemLijst">
+                <li onclick="toonItem(this)">
+                    <h3> First Blog Item </h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non illum magnam exercitationem cupiditate fuga
+                        sed quasi quisquam obcaecati ullam velit, facilis iusto repudiandae molestias itaque veritatis
+                        necessitatibus unde voluptatem nobis!</p>
+                </li>
+                
+                <li onclick="toonItem(this)">
+                        <h3> Second Blog Item </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non illum magnam exercitationem cupiditate fuga
+                            sed quasi quisquam obcaecati ullam velit, facilis iusto repudiandae molestias itaque veritatis
+                            necessitatibus unde voluptatem nobis!</p>
+                </li>
+               
+                <li onclick="toonItem(this)">
+                        <h3> Third Blog Item </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non illum magnam exercitationem cupiditate fuga
+                            sed quasi quisquam obcaecati ullam velit, facilis iusto repudiandae molestias itaque veritatis
+                            necessitatibus unde voluptatem nobis!</p>
+                </li>
+               
+                <li onclick="toonItem(this)">
+                        <h3> Fourth Blog Item </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non illum magnam exercitationem cupiditate fuga
+                            sed quasi quisquam obcaecati ullam velit, facilis iusto repudiandae molestias itaque veritatis
+                            necessitatibus unde voluptatem nobis!</p>
+                </li>
+
+
+
+            
+        </div>
+        <div class="right-pic">
+            
+           <img src="https://img.freepik.com/free-vector/coding-concept-programming-web-working-as-programmer-idea-modern-technology-illustration_277904-1507.jpg?w=996" alt="javapic" >
+             
+        </div>
+
+
+    </div>
+
+    <footer>
+        <div class="footer">
+           
+           <div class="copyright">
+             
+            &copy; Kubra
+           </div>
+
+           <div class="footer-nav-container">
+
+            <ul id="footer-nav">
+                <li><a href="contact.html"> Contact</li></a>
+                <li><a target="_blank" href="https://github.com/kubrayildirim2"> GitHub</li></a>
+                
+            </ul>
+
+            </div>
+
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
